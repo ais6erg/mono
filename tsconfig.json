@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    // Required by 'react-number-format'.
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
